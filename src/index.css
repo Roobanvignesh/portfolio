@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mobile-nav{
+    @apply fixed top-20 left-0 bg-slate-50 w-full h-[10%px];
+}
+
+.mobile-nav li{
+    @apply w-full text-center border-b-2 h-full py-3;
+}

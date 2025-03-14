@@ -1,0 +1,19 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom hover effect for the image */
+  img {
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Custom focus styles for buttons */
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.5); /* Teal focus ring */
+  }
